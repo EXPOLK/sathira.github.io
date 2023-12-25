@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;600&display=swap');
 
-
-:root{
-    
-}
-
 html{
     overflow-y: hidden;
     margin: 0;
@@ -57,33 +52,23 @@ html{
 }
 
 
-/* Define the scrollbar track */
 ::-webkit-scrollbar {
     width: 4px;
   }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
+::-webkit-scrollbar-thumb:hover {
     background: #888;
   }
-  
-  /* Define the scrollbar handle */
-  ::-webkit-scrollbar-thumb {
-    background-color: #666; /* Adjust the color as needed */
+::-webkit-scrollbar-thumb {
+    background-color: #666;
     border-radius: 10px;
   }
-  
-  /* Define the scrollbar track with a gray background */
-  ::-webkit-scrollbar-track {
-    background: transparent; /* Adjust the color as needed */
+::-webkit-scrollbar-track {
+    background: transparent;
   }
-  
-  /* Define the scrollbar handle for Firefox */
-  * {
+* {
     scrollbar-width: thin;
-    scrollbar-color: #666 #ddd; /* Adjust the color as needed */
+    scrollbar-color: #666 #ddd;
   }
-  
   *:hover {
     scrollbar-color: #888 #ddd;
   }
