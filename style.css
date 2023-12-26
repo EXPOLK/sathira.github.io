@@ -72,4 +72,9 @@ html{
   *:hover {
     scrollbar-color: #888 #ddd;
   }
-  
+
+
+.social-logo{
+    height: 5vh;
+    width: auto;
+}
