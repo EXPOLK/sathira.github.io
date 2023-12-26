@@ -51,29 +51,6 @@ html{
     margin-left: 5vw;
 }
 
-
-::-webkit-scrollbar {
-    width: 4px;
-  }
-::-webkit-scrollbar-thumb:hover {
-    background: #888;
-  }
-::-webkit-scrollbar-thumb {
-    background-color: #666;
-    border-radius: 10px;
-  }
-::-webkit-scrollbar-track {
-    background: transparent;
-  }
-* {
-    scrollbar-width: thin;
-    scrollbar-color: #666 #ddd;
-  }
-  *:hover {
-    scrollbar-color: #888 #ddd;
-  }
-
-
 .social-logo{
     height: 5vh;
     width: auto;
