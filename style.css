@@ -18,9 +18,9 @@ html{
 }
 
 .container-2{
-    overflow-y: scroll;
+    overflow-y: hidden;
     height: 70vh;
-    scroll-behavior: smooth;
+    width: 92%;
 }
 
 .nav{
@@ -77,4 +77,22 @@ html{
 .social-logo{
     height: 5vh;
     width: auto;
+}
+
+.scroll-button-div{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    flex-direction: column;
+}
+.scroll-button-div img{
+    height: 5vh;
+    width: auto;
+    padding: 1vh 0;
+    scale: 100%;
+    transition: 1s;
+}
+.scroll-button-div img:hover{
+    scale: 80%;
+    transition: 1s;
 }
